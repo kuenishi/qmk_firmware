@@ -23,7 +23,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |------+------+------+------+------+------+------|          |------|------+------+------+------+------+------|
  * | SYMB | LSft |   Z  |   X  |   C  |   V  |  B   |          |  N   |   M  |   ,  |   .  |   /  |  UP  | RSft |
  * |------+------+------+------+------+------+------|          |------+------+------+------+------+------+------|
- * | META | LAlt |      | LAlt | LGUI | Bksp |Space |          |Space | Space| Entr |      | LEFT | DOWN | RIGHT|
+ * | META | LAlt |      | LAlt | LGUI | Bksp |Space |          |Space | Entr |      |      | LEFT | DOWN | RIGHT|
  * `------------------------------------------------'          `------------------------------------------------'
  */
 
@@ -31,7 +31,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   KC_ESC,   KC_TAB,  KC_Q,   KC_W,    KC_E,    KC_R,    KC_T,   KC_Y,   KC_U,   KC_I,    KC_O,   KC_P,    KC_LBRC, KC_RBRC, \
   KC_LCTL,  KC_LCTL, KC_A,   KC_S,    KC_D,    KC_F,    KC_G,   KC_H,   KC_J,   KC_K,    KC_L,   KC_SCLN, KC_QUOT, KC_BSLS, \
   MO(SYMB), KC_LSFT, KC_Z,   KC_X,    KC_C,    KC_V,    KC_B,   KC_N,   KC_M,   KC_COMM, KC_DOT, KC_SLSH, KC_UP,   KC_RSFT, \
-  MO(META), KC_LALT, XXXXXXX,KC_LALT, KC_LGUI, KC_BSPC,KC_SPC,  KC_SPC, KC_SPC, KC_ENT,  XXXXXXX,KC_LEFT, KC_DOWN, KC_RGHT \
+  MO(META), KC_LALT, XXXXXXX,KC_LALT, KC_LGUI, KC_BSPC,KC_SPC,  KC_SPC, KC_ENT, XXXXXXX, XXXXXXX,KC_LEFT, KC_DOWN, KC_RGHT \
 ),
 
 /* META
@@ -42,7 +42,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |------+------+------+------+------+------+------|   |------|------+------+------+------+------+------|
  * | SYMB | LSft |      |      |      |      |      |   |      |      |      |      |      | Pgup | RSft |
  * |------+------+------+------+------+------+------|   |------+------+------+------+------+------+------|
- * | META | LAlt |      | LAlt | LGUI | Bksp |Space |   |Space | Space| Entr |      | Home | Pgdn | End  |
+ * | META | LAlt |      | LAlt | LGUI | Bksp |Space |   |Space | Entr |      |      | Home | Pgdn | End  |
  * `------------------------------------------------'   `------------------------------------------------'
  */
 
@@ -61,7 +61,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |------+------+------+------+------+------+------|   |------|------+------+------+------+------+------|
  * | SYMB | LSft |      |      |      |      |      |   |      |      |      |      |      | VolUP| RSft |
  * |------+------+------+------+------+------+------|   |------+------+------+------+------+------+------|
- * | META | LAlt |      | LAlt | LGUI | Bksp |Space |   |Space | Space| Entr |      |      | VolDN| Mute |
+ * | META | LAlt |      | LAlt | LGUI | Bksp |Space |   |Space | Entr |      |      |      | VolDN| Mute |
  * `------------------------------------------------'   `------------------------------------------------'
  */
 
