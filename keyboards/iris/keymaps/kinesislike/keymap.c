@@ -38,24 +38,24 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      GRV , 1  , 2  , 3  , 4  , 5  ,                6  , 7  , 8  , 9  , 0  ,MINS,
      TAB , Q  , W  , E  , R  , T  ,                Y  , U  , I  , O  , P  ,BSLS,
      LCTL, A  , S  , D  , F  , G  ,                H  , J  , K  , L  ,SCLN,QUOT,
-     LSFT, Z  , X  , C  , V  , B  ,LGUI ,     RALT, N , M  ,COMM,DOT ,SLSH,DEL ,
-                       LOWR,BSPC,SPC ,         SPC,ENTS,RASE
+     LSFT, Z  , X  , C  , V  , B  ,ESC,     LGUI, N , M  ,COMM,DOT ,SLSH,PLUS,
+                        LOWR,LALT, BSPC,         ENTS, SPC,RASE
   ),
 
   [_LOWER] = LAYOUT_kc(
      TILD,EXLM, AT ,HASH,DLR ,PERC,               CIRC,AMPR,ASTR,LPRN,RPRN,UNDS,
          ,    ,    ,    ,    ,    ,                   ,    ,    ,    ,LBRC,RBRC,
-         ,    ,    ,    ,    ,    ,               VOLU,    , UP ,    ,PGUP,HOME,
-         ,    ,    ,    ,    ,    ,LGUI,     RPRN,VOLD,LEFT,DOWN,RGHT,PGDN,END ,
-                        LOWR,BSPC,SPC ,         SPC,ENTS,RASE
+         ,    ,    ,    ,    ,    ,               VOLU,PGUP,HOME,    , UP ,    ,
+         ,    ,    ,    ,    ,    ,ESC,     RPRN,VOLD,PGDN,END ,LEFT,DOWN,RGHT,
+                        LOWR,LALT, BSPC,         ENTS, SPC,RASE
   ),
 
   [_RAISE] = LAYOUT_kc(
      F12 , F1 , F2 , F3 , F4 , F5 ,                F6 , F7 , F8 , F9 ,F10 ,F11 ,
          ,    ,    ,    ,    ,    ,                   ,    ,    ,    ,LBRC,RBRC,
-         ,    ,    ,    ,    ,    ,               VOLU,    , UP ,    ,PGUP,HOME,
-         ,    ,    ,    ,    ,    ,LGUI,     RPRN,VOLD,LEFT,DOWN,RGHT,PGDN,END ,
-                        LOWR,BSPC,SPC ,         SPC,ENTS,RASE
+         ,    ,    ,    ,    ,    ,               VOLU,PGUP,HOME,    , UP ,    ,
+         ,    ,    ,    ,    ,    ,LGUI,     RPRN,VOLD,PGDN,END ,LEFT,DOWN,RGHT,
+                        LOWR,LALT, BSPC,         ENTS, SPC,RASE
   ),
 
   [_ADJUST] = LAYOUT(
