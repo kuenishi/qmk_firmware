@@ -9,6 +9,11 @@ extern keymap_config_t keymap_config;
 #define _RAISE 2
 #define _ADJUST 16
 
+#ifdef BACKLIGHT_LEVELS
+#undef BACKLIGHT_LEVELS
+#endif
+#define BACKLIGHT_LEVELS 15
+
 enum custom_keycodes {
   QWERTY = SAFE_RANGE,
   LOWER,
